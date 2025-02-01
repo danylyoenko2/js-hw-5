@@ -1,2 +1,18 @@
 @import "./base/reset";
 @import "./base/base";
+
+.call {
+  display: block;
+  margin: 10px auto 0px auto;
+  border: 1px solid #000;
+  font-weight: 600;
+  font-size: 22px;
+  color: #0f0f0f;
+  border-radius: 5px;
+  background-color: rgba(240, 255, 108, 0.6);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(240, 255, 108, 0.8);
+  }
+}
