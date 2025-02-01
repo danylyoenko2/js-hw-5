@@ -89,32 +89,32 @@ switch (color) {
 }
 
 // 5 task
-// const fNum = 10;
-// const sNum = 3;
+const fNum = 10;
+const sNum = 3;
 
-// const operator = "+";
+const operator = "+";
 
-// switch (operator) {
-//   case "+":
-//     console.log(fNum + sNum);
-//     break;
-//   case "-":
-//     console.log(fNum - sNum);
-//     break;
-//   case "*":
-//     console.log(fNum * sNum);
-//     break;
-//   case "/":
-//     if (fNum === 0 || sNum === 0) {
-//       console.log("Can't divide on zero");
-//       return false;
-//     }
-//     console.log(fNum / sNum);
-//     break;
-//   default:
-//     console.log("Invalid operator");
-//     break;
-// }
+switch (operator) {
+  case "+":
+    console.log(fNum + sNum);
+    break;
+  case "-":
+    console.log(fNum - sNum);
+    break;
+  case "*":
+    console.log(fNum * sNum);
+    break;
+  case "/":
+    // if (fNum === 0 || sNum === 0) {
+    //   console.log("Can't divide on zero");
+    //   return false;
+    // }
+    console.log(fNum / sNum);
+    break;
+  default:
+    console.log("Invalid operator");
+    break;
+}
 
 // my idea for before task
 
