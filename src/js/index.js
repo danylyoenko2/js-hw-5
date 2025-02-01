@@ -105,10 +105,10 @@ switch (operator) {
     console.log(fNum * sNum);
     break;
   case "/":
-    // if (fNum === 0 || sNum === 0) {
-    //   console.log("Can't divide on zero");
-    //   return false;
-    // }
+    if (fNum === 0 || sNum === 0) {
+      console.log("Can't divide on zero");
+      return ;
+    }
     console.log(fNum / sNum);
     break;
   default:
