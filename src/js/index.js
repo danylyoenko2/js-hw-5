@@ -90,9 +90,9 @@ switch (color) {
 
 // 5 task
 const fNum = 10;
-const sNum = 0;
+const sNum = 3;
 
-const operator = "/";
+const operator = "+";
 
 switch (operator) {
   case "+":
@@ -105,10 +105,7 @@ switch (operator) {
     console.log(fNum * sNum);
     break;
   case "/":
-    if (fNum === 0 || sNum === 0) {
-      console.log("Can't divide on zero");
-      return;
-    }
+    // тут мала бути перевірка на нуль, але вона визиває помилку :(
     console.log(fNum / sNum);
     break;
   default:
